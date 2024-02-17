@@ -55,15 +55,8 @@ export default function HomeScreen(props) {
           >
             PayNow
           </Button>
-          {/* Add some gap */}
-          <Box m={2}></Box>
-          <Button
-            variant="contained"
-            style={buttonStyles}
-            onClick={() => selectHandler('At counter')}
-          >
-            Counter
-          </Button>
+         
+          
         </Box>
       </Box>
     </Box>
